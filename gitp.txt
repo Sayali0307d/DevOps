@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+    
+	
+    <h1>sample for practice</h1>
+    <h2>Simple HTML Form</h2>
+
+    <form>
+        
+        Name: <input type="text" name="name"><br><br>
+
+        Email: <input type="email" name="email"><br><br>
+
+        Password: <input type="password" name="password"><br><br>
+
+        <input type="submit" value="Submit">
+	<h4>kjrdhtg</h4>
+
+    </form>
+
+</body>
+</html>
