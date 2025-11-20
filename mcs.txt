@@ -1,0 +1,12 @@
+#touch index.html
+#touch dockerfile
+
+in docker file
+FROM httpd:2.4 
+COPY index.html/user/apache2/htdocs
+
+terminal
+sudo docker build -t myapp
+sudo docker run -p 8080:80 -d myapp
+
+web browser local host:8081
